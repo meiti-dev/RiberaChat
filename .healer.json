@@ -1,6 +1,13 @@
 {
   "revisar": [
-    "src/fabrica/diccionario/**"
+    "server/moldes/RiberaChat_muumjpuo__RC_PerfilUsuario.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_InicioDashboard.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_ChatCanal.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_VisorHilo.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_ChatDirecto.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_GestorCanales.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_BuscadorAvanzado.jsx",
+    "server/moldes/RiberaChat_muumjpuo__RC_GestorCatalogos.jsx"
   ],
   "vulnerabilidades_aceptadas": [
     {
