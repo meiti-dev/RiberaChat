@@ -1,0 +1,119 @@
+{
+  "requiere_login": true,
+  "tema": {
+    "colorPrimario": "#EC4899",
+    "colorSecundario": "#F59E0B",
+    "fondo": "#FFFFFF",
+    "superficie": "#FFF7ED",
+    "texto": "#1F2937"
+  },
+  "navegacion": {
+    "tipo": "tabs_inferior"
+  },
+  "paginas": [
+    {
+      "id": "inicio",
+      "titulo": "Inicio",
+      "icono": "fa-house",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_PerfilUsuario",
+          "col_span": 12
+        },
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_InicioDashboard",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra canales con mensajes no leídos, menciones recientes dirigidas al usuario y mensajes directos pendientes"
+    },
+    {
+      "id": "canal",
+      "titulo": "Canal",
+      "icono": "fa-hashtag",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_ChatCanal",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra el flujo cronológico de mensajes del canal con autor, avatar, hora, reacciones, respuestas y formulario para enviar mensaje con menciones y adjuntos"
+    },
+    {
+      "id": "hilo",
+      "titulo": "Hilo",
+      "icono": "fa-reply-all",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_VisorHilo",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Muestra el mensaje principal seleccionado y su lista de respuestas anidadas con caja para responder"
+    },
+    {
+      "id": "mensajes_directos",
+      "titulo": "Mensajes",
+      "icono": "fa-envelope",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_ChatDirecto",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Permite chatear de forma individual con compañeros viendo su lista y estado actual de disponibilidad"
+    },
+    {
+      "id": "canales",
+      "titulo": "Canales",
+      "icono": "fa-list-ul",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_GestorCanales",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Administra la creación, edición, archivo y miembros de canales públicos y privados con nombre, descripción y tema"
+    },
+    {
+      "id": "configuracion",
+      "titulo": "Configuración",
+      "icono": "fa-gear",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "BASE__Configuracion",
+          "col_span": 12
+        }
+      ]
+    },
+    {
+      "id": "busqueda",
+      "titulo": "Búsqueda",
+      "icono": "fa-magnifying-glass",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_BuscadorAvanzado",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Permite buscar mensajes y archivos filtrando por texto clave, autor, canal y rango de fechas"
+    },
+    {
+      "id": "catalogos",
+      "titulo": "Catálogos",
+      "icono": "fa-tags",
+      "rol": "admin",
+      "componentes": [
+        {
+          "tipo": "RiberaChat_muumjpuo__RC_GestorCatalogos",
+          "col_span": 12
+        }
+      ],
+      "descripcion": "Gestiona los temas disponibles para canales y los estados de disponibilidad del personal"
+    }
+  ],
+  "estilo_layout": "app",
+  "es_industrial": false,
+  "estilo_visual": "denso"
+}

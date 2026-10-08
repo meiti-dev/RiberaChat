@@ -1,0 +1,11 @@
+{
+  "appId": "dev.meiti.export.riberachat_muumjpuo",
+  "appName": "RiberaChat",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "android": {
+    "webContentsDebuggingEnabled": false
+  }
+}
